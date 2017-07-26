@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro{
+    background-color: skyblue;
+    color: white;
+    padding: 18px 15px 18px 15px;
+    text-align: center;
+    border: 1px solid skyblue;   
+}
+
+.profile_link{
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+    padding: 14px 16px;
+}
+
+.profile_link:hover{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: normal;
+}
+
+p{
+    font-size: large;
+}
+
+
+.action_buttons{
+    display: table;
+    width: 100%;
+    position: relative;
+    top: 225px;
+}
+
+
+.action_button_one{
+    display: table-cell;
+    width: 50%;
+    text-align: center;
+}
+
+.Authentication_link{
+    font-size: xx-large;
+    color: white;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    padding: 14px 16px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.Authentication_link:hover{
+    color: skyblue;
+    background-color: transparent;
+    border-color: skyblue;
+}
+
+
+
+
+.action_button_two{
+    display: table-cell;
+    position: 50%;
+    text-align: center;
+}
+
+.authorization_link{
+    font-size: xx-large;
+    color: white;
+    background-color: lightgreen;
+    border: 1px solid lightgreen;
+    padding: 14px 16px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.authorization_link:hover{
+    color: lightgreen;
+    background-color: transparent;
+    border-color: lightgreen;
+}
+
+.footer_container{
+    position: relative;
+    top: 400px;
+}
+
+footer{
+    background-color: lightgray;
+    color: white;
+    padding: 14px 14px 14px 14px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
